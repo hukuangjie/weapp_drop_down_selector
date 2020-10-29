@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app>.select_wrap {
+  width: 196rpx;
+}

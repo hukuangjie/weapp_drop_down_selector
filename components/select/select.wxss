@@ -1,0 +1,64 @@
+/* 下拉框 */
+.select_box {
+  background: #fff;
+  width: 100%;
+  border-radius: 8rpx;
+  border: 1rpx solid #E2E2E2;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: left;
+  position: relative;
+}
+
+.select {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60rpx;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.select_text {
+  font-size: 28rpx;
+  flex: 1;
+  color: #5789FF;
+  line-height: 60rpx;
+  height: 60rpx;
+}
+
+.select_img {
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.select_img_rotate {
+  transform: rotate(180deg);
+}
+
+.option_box {
+  position: absolute;
+  top: 60rpx;
+  width: 100%;
+  border: 1rpx solid #efefef;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  border-top: 0;
+  background: #fff;
+  transition: height 0.3s;
+  z-index: 1000;
+}
+
+.option {
+  display: block;
+  line-height: 50rpx;
+  font-size: 28rpx;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+  color: rgb(102, 102, 102);
+}

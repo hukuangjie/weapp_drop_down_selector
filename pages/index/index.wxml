@@ -1,0 +1,5 @@
+<view class="app">
+  <view class="select_wrap">
+    <select options="{{options}}" bind:change="change"></select>
+  </view>
+</view>
